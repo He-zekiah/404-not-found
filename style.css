@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding-top: 40px;
+    padding-left: 77px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: white;
+}
+
+#con__img {
+    height: 414.25px;
+    width: 539.22px;
+    margin-right: 118.78px;
+}
+
+.head {
+    margin-bottom: 100px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+}
+
+.info__text {
+    font-family: 'Space Mono', monospace;
+    font-size: 54px;
+    font-weight: 700;
+    width: 500px;
+    line-height: 94.78px;
+    letter-spacing: -3.5%;
+}
+
+.message__text {
+    font-family: 'Space Mono', monospace;
+    font-size: 23px;
+    font-weight: 700;
+    width: 381px;
+    line-height: 35.54px;
+    letter-spacing: -3.5%;
+}
+
+.return__page {
+    background-color: black;
+    color: white;
+    font-family:'Space Mono', monospace;
+    height: 50px;
+    width: 150px;
+    font-size: 10px;
+    font-weight: 700px;
+    line-height: 20.73px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.return__page:hover {
+    background-color: green;
+}
