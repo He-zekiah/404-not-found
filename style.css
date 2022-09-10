@@ -65,3 +65,10 @@ main {
 .return__page:hover {
     background-color: green;
 }
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
